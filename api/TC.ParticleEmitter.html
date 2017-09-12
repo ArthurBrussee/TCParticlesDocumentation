@@ -1,0 +1,1020 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ParticleEmitter
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ParticleEmitter
+   ">
+    <meta name="generator" content="docfx 2.24.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TC.ParticleEmitter">
+  
+  
+  <h1 id="TC_ParticleEmitter" data-uid="TC.ParticleEmitter" class="text-break">Class ParticleEmitter
+  </h1>
+  <div class="markdown level0 summary"><p>Class that handles emitting of particles, streaming, and emission properties.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">TC.Internal.ParticleComponent</span></div>
+    <div class="level2"><span class="xref">ParticleEmitter</span></div>
+  </div>
+  
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TC_ParticleEmitter_AngularVelocity_" data-uid="TC.ParticleEmitter.AngularVelocity*"></a>
+  <h4 id="TC_ParticleEmitter_AngularVelocity" data-uid="TC.ParticleEmitter.AngularVelocity">AngularVelocity</h4>
+  <div class="markdown level1 summary"><p>Angular velocity of a particle (degrees per second)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_ConeAngle_" data-uid="TC.ParticleEmitter.ConeAngle*"></a>
+  <h4 id="TC_ParticleEmitter_ConeAngle" data-uid="TC.ParticleEmitter.ConeAngle">ConeAngle</h4>
+  <div class="markdown level1 summary"><p>Angle of the cone when <a class="xref" href="TC.ParticleEmitter.html#TC_ParticleEmitter_Shape">Shape</a> is <a class="xref" href="TC.EmitShapes.html#TC_EmitShapes_Cone">Cone</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_ConeHeight_" data-uid="TC.ParticleEmitter.ConeHeight*"></a>
+  <h4 id="TC_ParticleEmitter_ConeHeight" data-uid="TC.ParticleEmitter.ConeHeight">ConeHeight</h4>
+  <div class="markdown level1 summary"><p>Height of the cone when <a class="xref" href="TC.ParticleEmitter.html#TC_ParticleEmitter_Shape">Shape</a> is <a class="xref" href="TC.EmitShapes.html#TC_EmitShapes_Cone">Cone</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_ConeRadius_" data-uid="TC.ParticleEmitter.ConeRadius*"></a>
+  <h4 id="TC_ParticleEmitter_ConeRadius" data-uid="TC.ParticleEmitter.ConeRadius">ConeRadius</h4>
+  <div class="markdown level1 summary"><p>Radius of the cone when <a class="xref" href="TC.ParticleEmitter.html#TC_ParticleEmitter_Shape">Shape</a> is <a class="xref" href="TC.EmitShapes.html#TC_EmitShapes_Cone">Cone</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_ConstantForce_" data-uid="TC.ParticleEmitter.ConstantForce*"></a>
+  <h4 id="TC_ParticleEmitter_ConstantForce" data-uid="TC.ParticleEmitter.ConstantForce">ConstantForce</h4>
+  <div class="markdown level1 summary"><p>Constant force on the particle system. The force is in world space</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><a class="xref" href="TC.Vector3Curve.html">Vector3Curve</a></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_CubeSize_" data-uid="TC.ParticleEmitter.CubeSize*"></a>
+  <h4 id="TC_ParticleEmitter_CubeSize" data-uid="TC.ParticleEmitter.CubeSize">CubeSize</h4>
+  <div class="markdown level1 summary"><p>Cube size of the emitting cube when <a class="xref" href="TC.ParticleEmitter.html#TC_ParticleEmitter_Shape">Shape</a> is <a class="xref" href="TC.EmitShapes.html#TC_EmitShapes_Box">Box</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">UnityEngine.Vector3</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_DoEmit_" data-uid="TC.ParticleEmitter.DoEmit*"></a>
+  <h4 id="TC_ParticleEmitter_DoEmit" data-uid="TC.ParticleEmitter.DoEmit">DoEmit</h4>
+  <div class="markdown level1 summary"><p>Should particles be emitted currently?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Boolean</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_DoSizeOverLifetime_" data-uid="TC.ParticleEmitter.DoSizeOverLifetime*"></a>
+  <h4 id="TC_ParticleEmitter_DoSizeOverLifetime" data-uid="TC.ParticleEmitter.DoSizeOverLifetime">DoSizeOverLifetime</h4>
+  <div class="markdown level1 summary"><p>Is size over lifetime used</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Boolean</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_EmissionRate_" data-uid="TC.ParticleEmitter.EmissionRate*"></a>
+  <h4 id="TC_ParticleEmitter_EmissionRate" data-uid="TC.ParticleEmitter.EmissionRate">EmissionRate</h4>
+  <div class="markdown level1 summary"><p>Number of particles emitted per seond or per unit depending on the <a class="xref" href="TC.ParticleEmitter.html#TC_ParticleEmitter_EmissionType">EmissionType</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_EmissionType_" data-uid="TC.ParticleEmitter.EmissionType*"></a>
+  <h4 id="TC_ParticleEmitter_EmissionType" data-uid="TC.ParticleEmitter.EmissionType">EmissionType</h4>
+  <div class="markdown level1 summary"><p>Method of emission (per second or per unit)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><a class="xref" href="TC.ParticleEmitter.EmissionMethod.html">ParticleEmitter.EmissionMethod</a></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_EmitMesh_" data-uid="TC.ParticleEmitter.EmitMesh*"></a>
+  <h4 id="TC_ParticleEmitter_EmitMesh" data-uid="TC.ParticleEmitter.EmitMesh">EmitMesh</h4>
+  <div class="markdown level1 summary"><p>The mesh shape of the emitter</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">UnityEngine.Mesh</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_Energy_" data-uid="TC.ParticleEmitter.Energy*"></a>
+  <h4 id="TC_ParticleEmitter_Energy" data-uid="TC.ParticleEmitter.Energy">Energy</h4>
+  <div class="markdown level1 summary"><p>Time a particle can be alive. Measured in seconds</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><a class="xref" href="TC.MinMaxRandom.html">MinMaxRandom</a></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_InheritVelocity_" data-uid="TC.ParticleEmitter.InheritVelocity*"></a>
+  <h4 id="TC_ParticleEmitter_InheritVelocity" data-uid="TC.ParticleEmitter.InheritVelocity">InheritVelocity</h4>
+  <div class="markdown level1 summary"><p>How much of the emitter&apos;s velocity should be inherited</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_LineLength_" data-uid="TC.ParticleEmitter.LineLength*"></a>
+  <h4 id="TC_ParticleEmitter_LineLength" data-uid="TC.ParticleEmitter.LineLength">LineLength</h4>
+  <div class="markdown level1 summary"><p>The length of the line particles emit from when <a class="xref" href="TC.ParticleEmitter.html#TC_ParticleEmitter_Shape">Shape</a> is <a class="xref" href="TC.EmitShapes.html#TC_EmitShapes_Line">Line</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_Radius_" data-uid="TC.ParticleEmitter.Radius*"></a>
+  <h4 id="TC_ParticleEmitter_Radius" data-uid="TC.ParticleEmitter.Radius">Radius</h4>
+  <div class="markdown level1 summary"><p>Radius of the emitting sphere used when <a class="xref" href="TC.ParticleEmitter.html#TC_ParticleEmitter_Shape">Shape</a> is <a class="xref" href="TC.EmitShapes.html#TC_EmitShapes_HemiSphere">HemiSphere</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><a class="xref" href="TC.MinMax.html">MinMax</a></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_RingOuterRadius_" data-uid="TC.ParticleEmitter.RingOuterRadius*"></a>
+  <h4 id="TC_ParticleEmitter_RingOuterRadius" data-uid="TC.ParticleEmitter.RingOuterRadius">RingOuterRadius</h4>
+  <div class="markdown level1 summary"><p>Outer radius of the ring when <a class="xref" href="TC.ParticleEmitter.html#TC_ParticleEmitter_Shape">Shape</a> is <a class="xref" href="TC.EmitShapes.html#TC_EmitShapes_Ring">Ring</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_RingRadius_" data-uid="TC.ParticleEmitter.RingRadius*"></a>
+  <h4 id="TC_ParticleEmitter_RingRadius" data-uid="TC.ParticleEmitter.RingRadius">RingRadius</h4>
+  <div class="markdown level1 summary"><p>Radius of the ring when <a class="xref" href="TC.ParticleEmitter.html#TC_ParticleEmitter_Shape">Shape</a> is <a class="xref" href="TC.EmitShapes.html#TC_EmitShapes_Ring">Ring</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_Rotation_" data-uid="TC.ParticleEmitter.Rotation*"></a>
+  <h4 id="TC_ParticleEmitter_Rotation" data-uid="TC.ParticleEmitter.Rotation">Rotation</h4>
+  <div class="markdown level1 summary"><p>Start rotation of a particle</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><a class="xref" href="TC.MinMaxRandom.html">MinMaxRandom</a></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_Shape_" data-uid="TC.ParticleEmitter.Shape*"></a>
+  <h4 id="TC_ParticleEmitter_Shape" data-uid="TC.ParticleEmitter.Shape">Shape</h4>
+  <div class="markdown level1 summary"><p>The current shape of the emitter - read only</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><a class="xref" href="TC.EmitShapes.html">EmitShapes</a></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_ShapeData_" data-uid="TC.ParticleEmitter.ShapeData*"></a>
+  <h4 id="TC_ParticleEmitter_ShapeData" data-uid="TC.ParticleEmitter.ShapeData">ShapeData</h4>
+  <div class="markdown level1 summary"><p>Holds all data about the curret emission shape</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">TC.Internal.ParticleEmitterShape</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_Size_" data-uid="TC.ParticleEmitter.Size*"></a>
+  <h4 id="TC_ParticleEmitter_Size" data-uid="TC.ParticleEmitter.Size">Size</h4>
+  <div class="markdown level1 summary"><p>Starting size of the particle</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><a class="xref" href="TC.MinMaxRandom.html">MinMaxRandom</a></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_SizeOverLifetime_" data-uid="TC.ParticleEmitter.SizeOverLifetime*"></a>
+  <h4 id="TC_ParticleEmitter_SizeOverLifetime" data-uid="TC.ParticleEmitter.SizeOverLifetime">SizeOverLifetime</h4>
+  <div class="markdown level1 summary"><p>Size over lifetime curve. Call UpdateSizeOverLifetime when changed. Clamped between [0-1]</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">UnityEngine.AnimationCurve</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_SizeOverLifetimeTexture_" data-uid="TC.ParticleEmitter.SizeOverLifetimeTexture*"></a>
+  <h4 id="TC_ParticleEmitter_SizeOverLifetimeTexture" data-uid="TC.ParticleEmitter.SizeOverLifetimeTexture">SizeOverLifetimeTexture</h4>
+  <div class="markdown level1 summary"><p>The current baked texture used for size over lifetime</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">UnityEngine.Texture2D</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_Speed_" data-uid="TC.ParticleEmitter.Speed*"></a>
+  <h4 id="TC_ParticleEmitter_Speed" data-uid="TC.ParticleEmitter.Speed">Speed</h4>
+  <div class="markdown level1 summary"><p>Start speed of a particle in the particle&apos;s start direction</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><a class="xref" href="TC.MinMaxRandom.html">MinMaxRandom</a></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_StartColor_" data-uid="TC.ParticleEmitter.StartColor*"></a>
+  <h4 id="TC_ParticleEmitter_StartColor" data-uid="TC.ParticleEmitter.StartColor">StartColor</h4>
+  <div class="markdown level1 summary"><p>The colour of the particles when they are emitted</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">UnityEngine.Color</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_StartDirectionRandomAngle_" data-uid="TC.ParticleEmitter.StartDirectionRandomAngle*"></a>
+  <h4 id="TC_ParticleEmitter_StartDirectionRandomAngle" data-uid="TC.ParticleEmitter.StartDirectionRandomAngle">StartDirectionRandomAngle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_StartDirectionType_" data-uid="TC.ParticleEmitter.StartDirectionType*"></a>
+  <h4 id="TC_ParticleEmitter_StartDirectionType" data-uid="TC.ParticleEmitter.StartDirectionType">StartDirectionType</h4>
+  <div class="markdown level1 summary"><p>How should the particle choose direction it should start in </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">StartDirection</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_StartDirectionVector_" data-uid="TC.ParticleEmitter.StartDirectionVector*"></a>
+  <h4 id="TC_ParticleEmitter_StartDirectionVector" data-uid="TC.ParticleEmitter.StartDirectionVector">StartDirectionVector</h4>
+  <div class="markdown level1 summary"><p>starting direciton of particles when <a class="xref" href="TC.ParticleEmitter.html#TC_ParticleEmitter_StartDirectionType">StartDirectionType</a> is <see cref="!:StartDirection.Vector"></see></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">UnityEngine.Vector3</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_StartSizeMultiplier_" data-uid="TC.ParticleEmitter.StartSizeMultiplier*"></a>
+  <h4 id="TC_ParticleEmitter_StartSizeMultiplier" data-uid="TC.ParticleEmitter.StartSizeMultiplier">StartSizeMultiplier</h4>
+  <div class="markdown level1 summary"><p>The first value of size over lifetime</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_VelocityOverLifetime_" data-uid="TC.ParticleEmitter.VelocityOverLifetime*"></a>
+  <h4 id="TC_ParticleEmitter_VelocityOverLifetime" data-uid="TC.ParticleEmitter.VelocityOverLifetime">VelocityOverLifetime</h4>
+  <div class="markdown level1 summary"><p>Velocity over lifetime. Call <span class="xref">TC.ParticleEmitter.UpdateVelocityOverLifetime</span> when changed. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><a class="xref" href="TC.Vector3Curve.html">Vector3Curve</a></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TC_ParticleEmitter_ClearAllEmittedParticles_" data-uid="TC.ParticleEmitter.ClearAllEmittedParticles*"></a>
+  <h4 id="TC_ParticleEmitter_ClearAllEmittedParticles" data-uid="TC.ParticleEmitter.ClearAllEmittedParticles">ClearAllEmittedParticles()</h4>
+  <div class="markdown level1 summary"><p>Clears all particles in the current particle system</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_Emit_" data-uid="TC.ParticleEmitter.Emit*"></a>
+  <h4 id="TC_ParticleEmitter_Emit_System_Int32_" data-uid="TC.ParticleEmitter.Emit(System.Int32)">Emit(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_Emit_" data-uid="TC.ParticleEmitter.Emit*"></a>
+  <h4 id="TC_ParticleEmitter_Emit_TC_ParticleProto___System_Boolean_System_Boolean_System_Boolean_" data-uid="TC.ParticleEmitter.Emit(TC.ParticleProto[],System.Boolean,System.Boolean,System.Boolean)">Emit(ParticleProto[], Boolean, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Emit a given amount of particles with some initial settings</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TC.ParticleProto.html">ParticleProto</a>[]</td>
+        <td><span class="parametername">prototypes</span></td>
+        <td><p>List of particle prototypes</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">useColor</span></td>
+        <td><p>Whether the color of the prototypes should be used</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">useSize</span></td>
+        <td><p>Whether the size of the prototypes should be used</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">useVelocity</span></td>
+        <td><p>Whether the velocity of the prototypes should be used</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_Emit_" data-uid="TC.ParticleEmitter.Emit*"></a>
+  <h4 id="TC_ParticleEmitter_Emit_UnityEngine_Vector3___" data-uid="TC.ParticleEmitter.Emit(UnityEngine.Vector3[])">Emit(Vector3[])</h4>
+  <div class="markdown level1 summary"><p>Emit a given amount of particles with some initial starting positions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span>[]</td>
+        <td><span class="parametername">positions</span></td>
+        <td><p>Starting positions of particles</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <a id="TC_ParticleEmitter_UpdateSizeOverLifetime_" data-uid="TC.ParticleEmitter.UpdateSizeOverLifetime*"></a>
+  <h4 id="TC_ParticleEmitter_UpdateSizeOverLifetime" data-uid="TC.ParticleEmitter.UpdateSizeOverLifetime">UpdateSizeOverLifetime()</h4>
+  <div class="markdown level1 summary"><p>Update size over lifetime, get&apos;s called automatically in most cases but might be neccesary for custom scripting</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="TC_ParticleEmitter_OnEmissionBind" data-uid="TC.ParticleEmitter.OnEmissionBind">OnEmissionBind</h4>
+  <div class="markdown level1 summary"><p>Callback when emission binds it&apos;s variables, can be used to bind custom emission variables at that time</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  
+  
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TC.ParticleEmitter.OnParticleEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>TC Particles by Arthur Brussee<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

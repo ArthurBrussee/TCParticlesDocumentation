@@ -1,0 +1,386 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MinMaxRandom
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MinMaxRandom
+   ">
+    <meta name="generator" content="docfx 2.24.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TC.MinMaxRandom">
+  
+  
+  <h1 id="TC_MinMaxRandom" data-uid="TC.MinMaxRandom" class="text-break">Class MinMaxRandom
+  </h1>
+  <div class="markdown level0 summary"><p>Holds values that can be a constant, a curve, or random between constants or curves</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">MinMaxRandom</span></div>
+  </div>
+  
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TC_MinMaxRandom_maxCurve" data-uid="TC.MinMaxRandom.maxCurve">maxCurve</h4>
+  <div class="markdown level1 summary"><p>Maximum value curve over the system time</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">UnityEngine.AnimationCurve</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_MinMaxRandom_minCurve" data-uid="TC.MinMaxRandom.minCurve">minCurve</h4>
+  <div class="markdown level1 summary"><p>Minimum value curve over the system time</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">UnityEngine.AnimationCurve</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_MinMaxRandom_t" data-uid="TC.MinMaxRandom.t">t</h4>
+  <div class="markdown level1 summary"><p>Current time used for sampling</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_MinMaxRandom_valueCurve" data-uid="TC.MinMaxRandom.valueCurve">valueCurve</h4>
+  <div class="markdown level1 summary"><p>Value curve over the system time</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">UnityEngine.AnimationCurve</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TC_MinMaxRandom_IsConstant_" data-uid="TC.MinMaxRandom.IsConstant*"></a>
+  <h4 id="TC_MinMaxRandom_IsConstant" data-uid="TC.MinMaxRandom.IsConstant">IsConstant</h4>
+  <div class="markdown level1 summary"><p>Is the value a constant or a single curve</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Boolean</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_MinMaxRandom_Max_" data-uid="TC.MinMaxRandom.Max*"></a>
+  <h4 id="TC_MinMaxRandom_Max" data-uid="TC.MinMaxRandom.Max">Max</h4>
+  <div class="markdown level1 summary"><p>Maximum value at this time</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_MinMaxRandom_Min_" data-uid="TC.MinMaxRandom.Min*"></a>
+  <h4 id="TC_MinMaxRandom_Min" data-uid="TC.MinMaxRandom.Min">Min</h4>
+  <div class="markdown level1 summary"><p>Minium value at this time</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_MinMaxRandom_Mode_" data-uid="TC.MinMaxRandom.Mode*"></a>
+  <h4 id="TC_MinMaxRandom_Mode" data-uid="TC.MinMaxRandom.Mode">Mode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><a class="xref" href="TC.MinMaxRandom.MinMaxMode.html">MinMaxRandom.MinMaxMode</a></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_MinMaxRandom_Value_" data-uid="TC.MinMaxRandom.Value*"></a>
+  <h4 id="TC_MinMaxRandom_Value" data-uid="TC.MinMaxRandom.Value">Value</h4>
+  <div class="markdown level1 summary"><p>Current value. Returns constant if <a class="xref" href="TC.MinMaxRandom.html#TC_MinMaxRandom_IsConstant">IsConstant</a>, otherwise returns average of min and max</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TC_MinMaxRandom_Constant_" data-uid="TC.MinMaxRandom.Constant*"></a>
+  <h4 id="TC_MinMaxRandom_Constant_System_Single_" data-uid="TC.MinMaxRandom.Constant(System.Single)">Constant(Single)</h4>
+  <div class="markdown level1 summary"><p>Returns a new MinMaxRandom instance holding a constant value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>constant value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TC.MinMaxRandom.html">MinMaxRandom</a></td>
+        <td><p>MinMaxRandom instance</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>TC Particles by Arthur Brussee<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

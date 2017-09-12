@@ -1,0 +1,669 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ParticleRenderer
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ParticleRenderer
+   ">
+    <meta name="generator" content="docfx 2.24.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TC.ParticleRenderer">
+  
+  
+  <h1 id="TC_ParticleRenderer" data-uid="TC.ParticleRenderer" class="text-break">Class ParticleRenderer
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">TC.Internal.ParticleComponent</span></div>
+    <div class="level2"><span class="xref">ParticleRenderer</span></div>
+  </div>
+  
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TC_ParticleRenderer_CastShadows" data-uid="TC.ParticleRenderer.CastShadows">CastShadows</h4>
+  <div class="markdown level1 summary"><p>Should this system cast shadows, when using a supported shader</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">UnityEngine.Rendering.ShadowCastingMode</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleRenderer_colourGradientMode" data-uid="TC.ParticleRenderer.colourGradientMode">colourGradientMode</h4>
+  <div class="markdown level1 summary"><p>Gradient mode used for the color over lifetime/speed gradient</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><a class="xref" href="TC.ParticleColourGradientMode.html">ParticleColourGradientMode</a></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleRenderer_culledSimulationMode" data-uid="TC.ParticleRenderer.culledSimulationMode">culledSimulationMode</h4>
+  <div class="markdown level1 summary"><p>Mode the system goes in when it is frustum culled</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><a class="xref" href="TC.CulledSimulationMode.html">CulledSimulationMode</a></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleRenderer_cullSimulationDelta" data-uid="TC.ParticleRenderer.cullSimulationDelta">cullSimulationDelta</h4>
+  <div class="markdown level1 summary"><p>Delta time to use when <a class="xref" href="TC.ParticleRenderer.html#TC_ParticleRenderer_culledSimulationMode">culledSimulationMode</a> is set to SlowSimulation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleRenderer_glow" data-uid="TC.ParticleRenderer.glow">glow</h4>
+  <div class="markdown level1 summary"><p>Brightness of the particles</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleRenderer_isPixelSize" data-uid="TC.ParticleRenderer.isPixelSize">isPixelSize</h4>
+  <div class="markdown level1 summary"><p>Is the size specified for the particles in pixels</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Boolean</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleRenderer_isVisible" data-uid="TC.ParticleRenderer.isVisible">isVisible</h4>
+  <div class="markdown level1 summary"><p>Was this particle renderer visible last frame</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Boolean</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleRenderer_maxSpeed" data-uid="TC.ParticleRenderer.maxSpeed">maxSpeed</h4>
+  <div class="markdown level1 summary"><p>Scale of the gradient when <a class="xref" href="TC.ParticleRenderer.html#TC_ParticleRenderer_colourGradientMode">colourGradientMode</a> is set to colour over speed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleRenderer_ReceiveShadows" data-uid="TC.ParticleRenderer.ReceiveShadows">ReceiveShadows</h4>
+  <div class="markdown level1 summary"><p>Should this system receive shadows, when using a supported shader</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Boolean</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleRenderer_spriteSheetAnimation" data-uid="TC.ParticleRenderer.spriteSheetAnimation">spriteSheetAnimation</h4>
+  <div class="markdown level1 summary"><p>Use sprite sheet animation for this particle system</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Boolean</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleRenderer_spriteSheetColumns" data-uid="TC.ParticleRenderer.spriteSheetColumns">spriteSheetColumns</h4>
+  <div class="markdown level1 summary"><p>nr. Of columns on animation sprite sheet</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleRenderer_spriteSheetCycles" data-uid="TC.ParticleRenderer.spriteSheetCycles">spriteSheetCycles</h4>
+  <div class="markdown level1 summary"><p>Nr. of times the particle goes through the sprite sheet in one lifetime.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleRenderer_spriteSheetRows" data-uid="TC.ParticleRenderer.spriteSheetRows">spriteSheetRows</h4>
+  <div class="markdown level1 summary"><p>Nr. of rows on animation sprite sheet</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleRenderer_TailUv" data-uid="TC.ParticleRenderer.TailUv">TailUv</h4>
+  <div class="markdown level1 summary"><p>Uv point at which to stretch when <a class="xref" href="TC.ParticleRenderer.html#TC_ParticleRenderer_RenderMode">RenderMode</a> is set to TailStretchedBillboard</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TC_ParticleRenderer_Bounds_" data-uid="TC.ParticleRenderer.Bounds*"></a>
+  <h4 id="TC_ParticleRenderer_Bounds" data-uid="TC.ParticleRenderer.Bounds">Bounds</h4>
+  <div class="markdown level1 summary"><p>Renderer bounds used for frustum culling when <a class="xref" href="TC.ParticleRenderer.html#TC_ParticleRenderer_UseFrustumCulling">UseFrustumCulling</a> is on.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">UnityEngine.Bounds</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleRenderer_ColourOverLifetime_" data-uid="TC.ParticleRenderer.ColourOverLifetime*"></a>
+  <h4 id="TC_ParticleRenderer_ColourOverLifetime" data-uid="TC.ParticleRenderer.ColourOverLifetime">ColourOverLifetime</h4>
+  <div class="markdown level1 summary"><p>Current gradient, used for color over speed/lifetime base on <a class="xref" href="TC.ParticleRenderer.html#TC_ParticleRenderer_colourGradientMode">colourGradientMode</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">UnityEngine.Gradient</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleRenderer_LengthScale_" data-uid="TC.ParticleRenderer.LengthScale*"></a>
+  <h4 id="TC_ParticleRenderer_LengthScale" data-uid="TC.ParticleRenderer.LengthScale">LengthScale</h4>
+  <div class="markdown level1 summary"><p>Factor to strech out particles when <a class="xref" href="TC.ParticleRenderer.html#TC_ParticleRenderer_RenderMode">RenderMode</a> is set to (Tail)StretchedBilloard</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleRenderer_Material_" data-uid="TC.ParticleRenderer.Material*"></a>
+  <h4 id="TC_ParticleRenderer_Material" data-uid="TC.ParticleRenderer.Material">Material</h4>
+  <div class="markdown level1 summary"><p>Current material used by the renderer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">UnityEngine.Material</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleRenderer_Mesh_" data-uid="TC.ParticleRenderer.Mesh*"></a>
+  <h4 id="TC_ParticleRenderer_Mesh" data-uid="TC.ParticleRenderer.Mesh">Mesh</h4>
+  <div class="markdown level1 summary"><p>Mesh used when <a class="xref" href="TC.ParticleRenderer.html#TC_ParticleRenderer_RenderMode">RenderMode</a> is set to Mesh</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">UnityEngine.Mesh</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleRenderer_RenderMode_" data-uid="TC.ParticleRenderer.RenderMode*"></a>
+  <h4 id="TC_ParticleRenderer_RenderMode" data-uid="TC.ParticleRenderer.RenderMode">RenderMode</h4>
+  <div class="markdown level1 summary"><p>Render mode for the particles</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><a class="xref" href="TC.GeometryRenderMode.html">GeometryRenderMode</a></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleRenderer_SpeedScale_" data-uid="TC.ParticleRenderer.SpeedScale*"></a>
+  <h4 id="TC_ParticleRenderer_SpeedScale" data-uid="TC.ParticleRenderer.SpeedScale">SpeedScale</h4>
+  <div class="markdown level1 summary"><p>Factor to strech out particles when <a class="xref" href="TC.ParticleRenderer.html#TC_ParticleRenderer_RenderMode">RenderMode</a> is set to (Tail)StretchedBilloard bassed on the particles speed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleRenderer_UseFrustumCulling_" data-uid="TC.ParticleRenderer.UseFrustumCulling*"></a>
+  <h4 id="TC_ParticleRenderer_UseFrustumCulling" data-uid="TC.ParticleRenderer.UseFrustumCulling">UseFrustumCulling</h4>
+  <div class="markdown level1 summary"><p>Whether to use frustum culling</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Boolean</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TC_ParticleRenderer_UpdateColourOverLifetime_" data-uid="TC.ParticleRenderer.UpdateColourOverLifetime*"></a>
+  <h4 id="TC_ParticleRenderer_UpdateColourOverLifetime" data-uid="TC.ParticleRenderer.UpdateColourOverLifetime">UpdateColourOverLifetime()</h4>
+  <div class="markdown level1 summary"><p>Update the colour over lifetime texture. Should be called whenever changing the colour over lifetime gradient</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <a id="TC_ParticleRenderer_UpdateVisibility_" data-uid="TC.ParticleRenderer.UpdateVisibility*"></a>
+  <h4 id="TC_ParticleRenderer_UpdateVisibility" data-uid="TC.ParticleRenderer.UpdateVisibility">UpdateVisibility()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  
+  
+  
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>TC Particles by Arthur Brussee<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,522 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/A-Bru/Documents/UnityProjects/TCParticlesMain/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.AttenuationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.AttenuationType.html",
+          "hash": "bw9mL+TOUOso3f9p5+wzGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.ColliderShape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.ColliderShape.html",
+          "hash": "YAo3GF0OqgceaETJ/0bWfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.CulledSimulationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.CulledSimulationMode.html",
+          "hash": "kovr4734fDyda5/salpgLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.DiscType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.DiscType.html",
+          "hash": "vIHRi8AOwY9CEMMvvHhokA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.EmitShapes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.EmitShapes.html",
+          "hash": "TEOKwGp1LAus6dfRlFk+qA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.ForceShape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.ForceShape.html",
+          "hash": "JqLjiDri1TAVl2TPXKtw5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.ForceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.ForceType.html",
+          "hash": "uca86oNQDRE01vSJc1dEHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.GeometryRenderMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.GeometryRenderMode.html",
+          "hash": "Ce4+iHqfTiXGL6b5FFGqwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.MinMax.MinMaxMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.MinMax.MinMaxMode.html",
+          "hash": "v2mt8hPDlZlSlUHEDPrkGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.MinMax.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.MinMax.html",
+          "hash": "kV554paLpApQPoviNo082w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.MinMaxRandom.MinMaxMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.MinMaxRandom.MinMaxMode.html",
+          "hash": "XHz2OBpr6ynPo7CX7Iz4Ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.MinMaxRandom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.MinMaxRandom.html",
+          "hash": "6l0AwpdzUMEX4/3WNJkH8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.NoiseType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.NoiseType.html",
+          "hash": "Gp4dBQ64ROWQY3uXkTC6Gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.OnParticleEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.OnParticleEvent.html",
+          "hash": "RAuQyUurWEyWyiRrXGLi+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.ParticleColliderManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.ParticleColliderManager.html",
+          "hash": "eozN+dsaPfcX2msWjgFMIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.ParticleColourGradientMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.ParticleColourGradientMode.html",
+          "hash": "bFxIQJO2Ytp5OjlGseHsUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.ParticleComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.ParticleComponent.html",
+          "hash": "faE5OI1+kPDmjCF6UJ6i+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.ParticleEmitter.EmissionMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.ParticleEmitter.EmissionMethod.html",
+          "hash": "0rPBk2MCx2tYjGC/qoqjgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.ParticleEmitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.ParticleEmitter.html",
+          "hash": "C2skHmmtj+BncMcHM4617Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.ParticleForceManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.ParticleForceManager.html",
+          "hash": "cCvQ6wZDGriEkwzLvSLEuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.ParticleManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.ParticleManager.html",
+          "hash": "J+FtDQTRv30ovwN/ztu2KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.ParticleProto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.ParticleProto.html",
+          "hash": "RUixBe7lSV93IldGzO0mGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.ParticleRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.ParticleRenderer.html",
+          "hash": "lethQvgpF567c/t3SzstyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.Space.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.Space.html",
+          "hash": "6jXrgFmz4PwjinS3J/4/iA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.StartDirectionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.StartDirectionType.html",
+          "hash": "+AsdDeSuO+6yImuFQdjaAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.TCCollider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.TCCollider.html",
+          "hash": "DsXspvj7u6wwhT66nHfELw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.TCForce.ForceSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.TCForce.ForceSpace.html",
+          "hash": "eO1g4aGnjVx0V09l346aWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.TCForce.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.TCForce.html",
+          "hash": "eraFvKpqRNWZZUB4hScFXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.TCParticleSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.TCParticleSystem.html",
+          "hash": "Xka3ZbdxIbaIHhbPAtqZpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.TCShapeEmitTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.TCShapeEmitTag.html",
+          "hash": "fKOZVGMt5Gh7PnwhFEy9JA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.TCShapeEmitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.TCShapeEmitter.html",
+          "hash": "Cw+KKKV6IFyv3VYD50qVxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.Vector3Curve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.Vector3Curve.html",
+          "hash": "nh5iUE4nnAGFbBgy41H07g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TC.html",
+          "hash": "WsjkFLk6cjXKgYiW7GBckQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "qN4YabYsDPLExIvOKrYdVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "uGS3vZ1HdIBv0wheebw8gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "g1U+xEGtgiUHpD3pSsRrew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "WqvH5gs7fAQdI7DIYIcjzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "pI5UxBrAVH1aAQ6RsZq5fA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "7Y8j0q/B/bILUrAslMh+YQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "RestApiDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

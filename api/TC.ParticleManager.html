@@ -1,0 +1,1030 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ParticleManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ParticleManager
+   ">
+    <meta name="generator" content="docfx 2.24.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TC.ParticleManager">
+  
+  
+  <h1 id="TC_ParticleManager" data-uid="TC.ParticleManager" class="text-break">Class ParticleManager
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">TC.Internal.ParticleComponent</span></div>
+    <div class="level2"><span class="xref">ParticleManager</span></div>
+  </div>
+  
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TC_ParticleManager_damping" data-uid="TC.ParticleManager.damping">damping</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleManager_delay" data-uid="TC.ParticleManager.delay">delay</h4>
+  <div class="markdown level1 summary"><p>Delay in seconds before systems starts playing when <a class="xref" href="TC.ParticleManager.html#TC_ParticleManager_playOnAwake">playOnAwake</a> is true</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleManager_gravityMultiplier" data-uid="TC.ParticleManager.gravityMultiplier">gravityMultiplier</h4>
+  <div class="markdown level1 summary"><p>The factor of gravity used as configured in the physics settings</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleManager_looping" data-uid="TC.ParticleManager.looping">looping</h4>
+  <div class="markdown level1 summary"><p>Does the system loop</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Boolean</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleManager_MaxSpeed" data-uid="TC.ParticleManager.MaxSpeed">MaxSpeed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleManager_Offset" data-uid="TC.ParticleManager.Offset">Offset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Int32</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleManager_particles" data-uid="TC.ParticleManager.particles">particles</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">UnityEngine.ComputeBuffer</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleManager_playbackSpeed" data-uid="TC.ParticleManager.playbackSpeed">playbackSpeed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleManager_playOnAwake" data-uid="TC.ParticleManager.playOnAwake">playOnAwake</h4>
+  <div class="markdown level1 summary"><p>Should the system start playing as soon as it wakes up</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Boolean</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_ParticleManager_prewarm" data-uid="TC.ParticleManager.prewarm">prewarm</h4>
+  <div class="markdown level1 summary"><p>Should the particles be prewarmed when starting playback</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Boolean</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TC_ParticleManager_ConstantForce_" data-uid="TC.ParticleManager.ConstantForce*"></a>
+  <h4 id="TC_ParticleManager_ConstantForce" data-uid="TC.ParticleManager.ConstantForce">ConstantForce</h4>
+  <div class="markdown level1 summary"><p>Gravity of the particle system in world space</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><a class="xref" href="TC.Vector3Curve.html">Vector3Curve</a></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_DispatchCount_" data-uid="TC.ParticleManager.DispatchCount*"></a>
+  <h4 id="TC_ParticleManager_DispatchCount" data-uid="TC.ParticleManager.DispatchCount">DispatchCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Int32</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_Duration_" data-uid="TC.ParticleManager.Duration*"></a>
+  <h4 id="TC_ParticleManager_Duration" data-uid="TC.ParticleManager.Duration">Duration</h4>
+  <div class="markdown level1 summary"><p>Total duration the system plays, before looping or stopping.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_EmissionRate_" data-uid="TC.ParticleManager.EmissionRate*"></a>
+  <h4 id="TC_ParticleManager_EmissionRate" data-uid="TC.ParticleManager.EmissionRate">EmissionRate</h4>
+  <div class="markdown level1 summary"><p>Number of particles emitted each second</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_IsPaused_" data-uid="TC.ParticleManager.IsPaused*"></a>
+  <h4 id="TC_ParticleManager_IsPaused" data-uid="TC.ParticleManager.IsPaused">IsPaused</h4>
+  <div class="markdown level1 summary"><p>Is the particle system paused?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Boolean</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_IsPlaying_" data-uid="TC.ParticleManager.IsPlaying*"></a>
+  <h4 id="TC_ParticleManager_IsPlaying" data-uid="TC.ParticleManager.IsPlaying">IsPlaying</h4>
+  <div class="markdown level1 summary"><p>Is the particle system playing?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Boolean</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_IsStopped_" data-uid="TC.ParticleManager.IsStopped*"></a>
+  <h4 id="TC_ParticleManager_IsStopped" data-uid="TC.ParticleManager.IsStopped">IsStopped</h4>
+  <div class="markdown level1 summary"><p>Is the particle system paused?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Boolean</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_IsWorldSpace_" data-uid="TC.ParticleManager.IsWorldSpace*"></a>
+  <h4 id="TC_ParticleManager_IsWorldSpace" data-uid="TC.ParticleManager.IsWorldSpace">IsWorldSpace</h4>
+  <div class="markdown level1 summary"><p>Is the current <a class="xref" href="TC.ParticleManager.html#TC_ParticleManager_SimulationSpace">SimulationSpace</a> set to <a class="xref" href="TC.Space.html#TC_Space_World">World</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Boolean</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_MaxParticles_" data-uid="TC.ParticleManager.MaxParticles*"></a>
+  <h4 id="TC_ParticleManager_MaxParticles" data-uid="TC.ParticleManager.MaxParticles">MaxParticles</h4>
+  <div class="markdown level1 summary"><p>The maximum number of particles in the particle buffer (Read Only)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Int32</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_NoSimulation_" data-uid="TC.ParticleManager.NoSimulation*"></a>
+  <h4 id="TC_ParticleManager_NoSimulation" data-uid="TC.ParticleManager.NoSimulation">NoSimulation</h4>
+  <div class="markdown level1 summary"><p>Turn on/off no simulation. No simulation mode can be used for better performance of visualizations</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Boolean</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_NumParticles_" data-uid="TC.ParticleManager.NumParticles*"></a>
+  <h4 id="TC_ParticleManager_NumParticles" data-uid="TC.ParticleManager.NumParticles">NumParticles</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Int32</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_ParticleCount_" data-uid="TC.ParticleManager.ParticleCount*"></a>
+  <h4 id="TC_ParticleManager_ParticleCount" data-uid="TC.ParticleManager.ParticleCount">ParticleCount</h4>
+  <div class="markdown level1 summary"><p>Current (approximate) particle count</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  <h5 id="TC_ParticleManager_ParticleCount_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This is only approximate as it is not known exactly when particles die off. All particles are assumed to live the maximum set lifetime</p>
+</div>
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Int32</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_ParticleTimeDelta_" data-uid="TC.ParticleManager.ParticleTimeDelta*"></a>
+  <h4 id="TC_ParticleManager_ParticleTimeDelta" data-uid="TC.ParticleManager.ParticleTimeDelta">ParticleTimeDelta</h4>
+  <div class="markdown level1 summary"><p>Delta time of particle simulation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_RealTime_" data-uid="TC.ParticleManager.RealTime*"></a>
+  <h4 id="TC_ParticleManager_RealTime" data-uid="TC.ParticleManager.RealTime">RealTime</h4>
+  <div class="markdown level1 summary"><p>Time particle system has been playing since it is playing</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_SimulationSpace_" data-uid="TC.ParticleManager.SimulationSpace*"></a>
+  <h4 id="TC_ParticleManager_SimulationSpace" data-uid="TC.ParticleManager.SimulationSpace">SimulationSpace</h4>
+  <div class="markdown level1 summary"><p>The space the simulation takes place in.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  <h5 id="TC_ParticleManager_SimulationSpace_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>When setting this to a new space current particles are cleared</p>
+</div>
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><a class="xref" href="TC.Space.html">Space</a></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_SystemTime_" data-uid="TC.ParticleManager.SystemTime*"></a>
+  <h4 id="TC_ParticleManager_SystemTime" data-uid="TC.ParticleManager.SystemTime">SystemTime</h4>
+  <div class="markdown level1 summary"><p>Current looped playback time</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TC_ParticleManager_BindPariclesToKernel_" data-uid="TC.ParticleManager.BindPariclesToKernel*"></a>
+  <h4 id="TC_ParticleManager_BindPariclesToKernel_UnityEngine_ComputeShader_System_Int32_" data-uid="TC.ParticleManager.BindPariclesToKernel(UnityEngine.ComputeShader,System.Int32)">BindPariclesToKernel(ComputeShader, Int32)</h4>
+  <div class="markdown level1 summary"><p>Binds all fields needed to interface with the TC Particles API to a certain Compute shader kernel</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.ComputeShader</span></td>
+        <td><span class="parametername">comp</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">kernel</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_Clear_" data-uid="TC.ParticleManager.Clear*"></a>
+  <h4 id="TC_ParticleManager_Clear_System_Boolean_" data-uid="TC.ParticleManager.Clear(System.Boolean)">Clear(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Clear all currently emitted particles</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">withChildren</span></td>
+        <td><p>Should children particle systems also be cleared</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_DispatchExtensionKernel_" data-uid="TC.ParticleManager.DispatchExtensionKernel*"></a>
+  <h4 id="TC_ParticleManager_DispatchExtensionKernel_UnityEngine_ComputeShader_System_Int32_" data-uid="TC.ParticleManager.DispatchExtensionKernel(UnityEngine.ComputeShader,System.Int32)">DispatchExtensionKernel(ComputeShader, Int32)</h4>
+  <div class="markdown level1 summary"><p>Launch a compute shader kernel with a thread for each current particle</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.ComputeShader</span></td>
+        <td><span class="parametername">extension</span></td>
+        <td><p>The compute shader to dispatch</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">kernel</span></td>
+        <td><p>the kernel to dispatch in the compute shader</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <h5 id="TC_ParticleManager_DispatchExtensionKernel_UnityEngine_ComputeShader_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The extension compute shader must adhere to certain guidelines:</p>
+<p>-Have a groupsize of TC_GROUP_SIZE, 1, 1
+-Include TCFramework.cginc
+-To get a particle use particles[GetID(dispatchThreadID.x)]
+-Use _DeltTime for calculations involving delta time</p>
+<p>For more information see the additional comments in the extension kernel example</p>
+</div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_IsAlive_" data-uid="TC.ParticleManager.IsAlive*"></a>
+  <h4 id="TC_ParticleManager_IsAlive" data-uid="TC.ParticleManager.IsAlive">IsAlive()</h4>
+  <div class="markdown level1 summary"><p>Are there any particles alive in the current system</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_Pause_" data-uid="TC.ParticleManager.Pause*"></a>
+  <h4 id="TC_ParticleManager_Pause_System_Boolean_" data-uid="TC.ParticleManager.Pause(System.Boolean)">Pause(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Pause current playback</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">withChildren</span></td>
+        <td><p>Should children particle systems be paused too</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_Play_" data-uid="TC.ParticleManager.Play*"></a>
+  <h4 id="TC_ParticleManager_Play_System_Boolean_" data-uid="TC.ParticleManager.Play(System.Boolean)">Play(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Start playback of the current system</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">withChildren</span></td>
+        <td><p>Should children system also start playback</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_Simulate_" data-uid="TC.ParticleManager.Simulate*"></a>
+  <h4 id="TC_ParticleManager_Simulate_System_Single_System_Boolean_System_Boolean_" data-uid="TC.ParticleManager.Simulate(System.Single,System.Boolean,System.Boolean)">Simulate(Single, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Skip some time ahead by simulating the system for a given time</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">simulateTime</span></td>
+        <td><p>Time to skip ahead</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">withChildren</span></td>
+        <td><p>Should children systems also be simulated with this system</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">restart</span></td>
+        <td><p>Should the system be restarted before simulating</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <a id="TC_ParticleManager_Stop_" data-uid="TC.ParticleManager.Stop*"></a>
+  <h4 id="TC_ParticleManager_Stop_System_Boolean_" data-uid="TC.ParticleManager.Stop(System.Boolean)">Stop(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Stop playback of particle system</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">withChildren</span></td>
+        <td><p>Should children systems also be stopped</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>TC Particles by Arthur Brussee<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,887 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TCForce
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TCForce
+   ">
+    <meta name="generator" content="docfx 2.24.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TC.TCForce">
+  
+  
+  <h1 id="TC_TCForce" data-uid="TC.TCForce" class="text-break">Class TCForce
+  </h1>
+  <div class="markdown level0 summary"><p>Component to create a force that influences particle systems. Can create ordered or</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">TCForce</span></div>
+  </div>
+  
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="TC_TCForce_All" data-uid="TC.TCForce.All">All</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="TC.TCForce.html">TCForce</a>&gt;</th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_attenuationType" data-uid="TC.TCForce.attenuationType">attenuationType</h4>
+  <div class="markdown level1 summary"><p>What falloff function to use for the force</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><a class="xref" href="TC.AttenuationType.html">AttenuationType</a></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_boxSize" data-uid="TC.TCForce.boxSize">boxSize</h4>
+  <div class="markdown level1 summary"><p>The cube size of the force when <a class="xref" href="TC.TCForce.html#TC_TCForce_shape">shape</a> is <a class="xref" href="TC.ForceShape.html#TC_ForceShape_Box">Box</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">UnityEngine.Vector3</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_discHeight" data-uid="TC.TCForce.discHeight">discHeight</h4>
+  <div class="markdown level1 summary"><p>The height of the disc volume when <a class="xref" href="TC.TCForce.html#TC_TCForce_shape">shape</a> is <a class="xref" href="TC.ForceShape.html#TC_ForceShape_Disc">Disc</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_discRounding" data-uid="TC.TCForce.discRounding">discRounding</h4>
+  <div class="markdown level1 summary"><p>The rounding of the disc volume when <a class="xref" href="TC.TCForce.html#TC_TCForce_shape">shape</a> is <a class="xref" href="TC.ForceShape.html#TC_ForceShape_Disc">Disc</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_discType" data-uid="TC.TCForce.discType">discType</h4>
+  <div class="markdown level1 summary"><p>What type of disc is the volume when <a class="xref" href="TC.TCForce.html#TC_TCForce_shape">shape</a> is <a class="xref" href="TC.ForceShape.html#TC_ForceShape_Disc">Disc</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><a class="xref" href="TC.DiscType.html">DiscType</a></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_forceDirection" data-uid="TC.TCForce.forceDirection">forceDirection</h4>
+  <div class="markdown level1 summary"><p>Direction of force for ForceType.Vector</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">UnityEngine.Vector3</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_forceDirectionSpace" data-uid="TC.TCForce.forceDirectionSpace">forceDirectionSpace</h4>
+  <div class="markdown level1 summary"><p>The space to use for the force direction (world / local)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><a class="xref" href="TC.TCForce.ForceSpace.html">TCForce.ForceSpace</a></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_forceTexture" data-uid="TC.TCForce.forceTexture">forceTexture</h4>
+  <div class="markdown level1 summary"><p>The force texture used in force type TurbulenceTexture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">UnityEngine.Texture3D</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_forceType" data-uid="TC.TCForce.forceType">forceType</h4>
+  <div class="markdown level1 summary"><p>The type of force</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><a class="xref" href="TC.ForceType.html">ForceType</a></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_frequency" data-uid="TC.TCForce.frequency">frequency</h4>
+  <div class="markdown level1 summary"><p>The frequency of the selected noise type</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_height" data-uid="TC.TCForce.height">height</h4>
+  <div class="markdown level1 summary"><p>The height of the capsule when <a class="xref" href="TC.TCForce.html#TC_TCForce_shape">shape</a> is <a class="xref" href="TC.ForceShape.html#TC_ForceShape_Capsule">Capsule</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_inwardForce" data-uid="TC.TCForce.inwardForce">inwardForce</h4>
+  <div class="markdown level1 summary"><p>Strenght of an extra inward force for when <a class="xref" href="TC.TCForce.html#TC_TCForce_forceType">forceType</a> is <a class="xref" href="TC.ForceType.html#TC_ForceType_Vortex">Vortex</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_lacunarity" data-uid="TC.TCForce.lacunarity">lacunarity</h4>
+  <div class="markdown level1 summary"><p>The lacunarity (chaos) for the selected noise type</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_noiseExtents" data-uid="TC.TCForce.noiseExtents">noiseExtents</h4>
+  <div class="markdown level1 summary"><p>The period in which the noise should be repeated</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">UnityEngine.Vector3</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_noiseOffset" data-uid="TC.TCForce.noiseOffset">noiseOffset</h4>
+  <div class="markdown level1 summary"><p>The seed of the noise</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">UnityEngine.Vector3</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_noiseType" data-uid="TC.TCForce.noiseType">noiseType</h4>
+  <div class="markdown level1 summary"><p>The type of the noise when <a class="xref" href="TC.TCForce.html#TC_TCForce_forceType">forceType</a> is <a class="xref" href="TC.ForceType.html#TC_ForceType_Turbulence">Turbulence</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><a class="xref" href="TC.NoiseType.html">NoiseType</a></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_octaveCount" data-uid="TC.TCForce.octaveCount">octaveCount</h4>
+  <div class="markdown level1 summary"><p>The octave count for the selected noise type</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Int32</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_persistence" data-uid="TC.TCForce.persistence">persistence</h4>
+  <div class="markdown level1 summary"><p>The persistence (strength of high frequency) for selected noise type</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_power" data-uid="TC.TCForce.power">power</h4>
+  <div class="markdown level1 summary"><p>The strength of the force.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_radius" data-uid="TC.TCForce.radius">radius</h4>
+  <div class="markdown level1 summary"><p>The max radius of the force. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><a class="xref" href="TC.MinMax.html">MinMax</a></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_resolution" data-uid="TC.TCForce.resolution">resolution</h4>
+  <div class="markdown level1 summary"><p>The resolution of the force </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Int32</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_shape" data-uid="TC.TCForce.shape">shape</h4>
+  <div class="markdown level1 summary"><p>The shape of the force</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><a class="xref" href="TC.ForceShape.html">ForceShape</a></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_smoothness" data-uid="TC.TCForce.smoothness">smoothness</h4>
+  <div class="markdown level1 summary"><p>The smoothness value </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h4 id="TC_TCForce_vortexAxis" data-uid="TC.TCForce.vortexAxis">vortexAxis</h4>
+  <div class="markdown level1 summary"><p>Axis vortex force rotates around when <a class="xref" href="TC.TCForce.html#TC_TCForce_forceType">forceType</a> is <a class="xref" href="TC.ForceType.html#TC_ForceType_Vortex">Vortex</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th><span class="xref">UnityEngine.Vector3</span></th>
+      </tr>
+    </thead>
+  </table>
+  
+  
+  
+  
+  
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TC_TCForce_Attenuation_" data-uid="TC.TCForce.Attenuation*"></a>
+  <h4 id="TC_TCForce_Attenuation" data-uid="TC.TCForce.Attenuation">Attenuation</h4>
+  <div class="markdown level1 summary"><p>amount this force fades from the center point to the radius ([0...1])</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_TCForce_CurrentForceVolume_" data-uid="TC.TCForce.CurrentForceVolume*"></a>
+  <h4 id="TC_TCForce_CurrentForceVolume" data-uid="TC.TCForce.CurrentForceVolume">CurrentForceVolume</h4>
+  <div class="markdown level1 summary"><p>Get an up to date texture holding the current vector field data. Can be a render texture</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">UnityEngine.Texture</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_TCForce_InheritVelocity_" data-uid="TC.TCForce.InheritVelocity*"></a>
+  <h4 id="TC_TCForce_InheritVelocity" data-uid="TC.TCForce.InheritVelocity">InheritVelocity</h4>
+  <div class="markdown level1 summary"><p>How much of the force&apos;s velocity should be inherited</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Single</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_TCForce_IsGlobalShape_" data-uid="TC.TCForce.IsGlobalShape*"></a>
+  <h4 id="TC_TCForce_IsGlobalShape" data-uid="TC.TCForce.IsGlobalShape">IsGlobalShape</h4>
+  <div class="markdown level1 summary"><p>Is this force shape global for all attached forces?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Boolean</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_TCForce_IsPrimaryForce_" data-uid="TC.TCForce.IsPrimaryForce*"></a>
+  <h4 id="TC_TCForce_IsPrimaryForce" data-uid="TC.TCForce.IsPrimaryForce">IsPrimaryForce</h4>
+  <div class="markdown level1 summary"><p>Is this force the primary force attached? (first one in the component order)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">System.Boolean</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  
+  
+  <a id="TC_TCForce_Velocity_" data-uid="TC.TCForce.Velocity*"></a>
+  <h4 id="TC_TCForce_Velocity" data-uid="TC.TCForce.Velocity">Velocity</h4>
+  <div class="markdown level1 summary"><p>The current velocity of this force</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  
+  
+  
+  
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+  	  <th><span class="xref">UnityEngine.Vector3</span></th>
+      </tr>
+    </thead>
+  
+  </table>
+  
+  
+  
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TC_TCForce_GenerateTexture_" data-uid="TC.TCForce.GenerateTexture*"></a>
+  <h4 id="TC_TCForce_GenerateTexture_UnityEngine_Vector3_0__0__0___System_Boolean_" data-uid="TC.TCForce.GenerateTexture(UnityEngine.Vector3[0:,0:,0:],System.Boolean)">GenerateTexture(Vector3[,,], Boolean)</h4>
+  <div class="markdown level1 summary"><p>Generate a new texture based on existing vector field data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span>[,,]</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>Vector field</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">newTexture</span></td>
+        <td><p>Should a new texture be created to hold this data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>TC Particles by Arthur Brussee<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
