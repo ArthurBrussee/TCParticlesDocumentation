@@ -1165,6 +1165,18 @@ references:
   commentId: E:TC.ParticleEmitter.OnEmissionBind
   fullName: TC.ParticleEmitter.OnEmissionBind
   nameWithType: ParticleEmitter.OnEmissionBind
+- uid: TC.ParticleEmitter.ParticleCount
+  name: ParticleCount
+  href: api/TC.ParticleEmitter.html#TC_ParticleEmitter_ParticleCount
+  commentId: P:TC.ParticleEmitter.ParticleCount
+  fullName: TC.ParticleEmitter.ParticleCount
+  nameWithType: ParticleEmitter.ParticleCount
+- uid: TC.ParticleEmitter.ParticleCount*
+  name: ParticleCount
+  href: api/TC.ParticleEmitter.html#TC_ParticleEmitter_ParticleCount_
+  commentId: Overload:TC.ParticleEmitter.ParticleCount
+  fullName: TC.ParticleEmitter.ParticleCount
+  nameWithType: ParticleEmitter.ParticleCount
 - uid: TC.ParticleEmitter.Radius
   name: Radius
   href: api/TC.ParticleEmitter.html#TC_ParticleEmitter_Radius
@@ -1555,6 +1567,18 @@ references:
   commentId: Overload:TC.ParticleManager.EmissionRate
   fullName: TC.ParticleManager.EmissionRate
   nameWithType: ParticleManager.EmissionRate
+- uid: TC.ParticleManager.GetParticlesBuffer
+  name: GetParticlesBuffer()
+  href: api/TC.ParticleManager.html#TC_ParticleManager_GetParticlesBuffer
+  commentId: M:TC.ParticleManager.GetParticlesBuffer
+  fullName: TC.ParticleManager.GetParticlesBuffer()
+  nameWithType: ParticleManager.GetParticlesBuffer()
+- uid: TC.ParticleManager.GetParticlesBuffer*
+  name: GetParticlesBuffer
+  href: api/TC.ParticleManager.html#TC_ParticleManager_GetParticlesBuffer_
+  commentId: Overload:TC.ParticleManager.GetParticlesBuffer
+  fullName: TC.ParticleManager.GetParticlesBuffer
+  nameWithType: ParticleManager.GetParticlesBuffer
 - uid: TC.ParticleManager.gravityMultiplier
   name: gravityMultiplier
   href: api/TC.ParticleManager.html#TC_ParticleManager_gravityMultiplier
@@ -1657,18 +1681,6 @@ references:
   commentId: Overload:TC.ParticleManager.NoSimulation
   fullName: TC.ParticleManager.NoSimulation
   nameWithType: ParticleManager.NoSimulation
-- uid: TC.ParticleManager.NumParticles
-  name: NumParticles
-  href: api/TC.ParticleManager.html#TC_ParticleManager_NumParticles
-  commentId: P:TC.ParticleManager.NumParticles
-  fullName: TC.ParticleManager.NumParticles
-  nameWithType: ParticleManager.NumParticles
-- uid: TC.ParticleManager.NumParticles*
-  name: NumParticles
-  href: api/TC.ParticleManager.html#TC_ParticleManager_NumParticles_
-  commentId: Overload:TC.ParticleManager.NumParticles
-  fullName: TC.ParticleManager.NumParticles
-  nameWithType: ParticleManager.NumParticles
 - uid: TC.ParticleManager.Offset
   name: Offset
   href: api/TC.ParticleManager.html#TC_ParticleManager_Offset
@@ -1687,12 +1699,6 @@ references:
   commentId: Overload:TC.ParticleManager.ParticleCount
   fullName: TC.ParticleManager.ParticleCount
   nameWithType: ParticleManager.ParticleCount
-- uid: TC.ParticleManager.particles
-  name: particles
-  href: api/TC.ParticleManager.html#TC_ParticleManager_particles
-  commentId: F:TC.ParticleManager.particles
-  fullName: TC.ParticleManager.particles
-  nameWithType: ParticleManager.particles
 - uid: TC.ParticleManager.ParticleTimeDelta
   name: ParticleTimeDelta
   href: api/TC.ParticleManager.html#TC_ParticleManager_ParticleTimeDelta
@@ -1906,7 +1912,13 @@ references:
 - uid: TC.ParticleRenderer.isVisible
   name: isVisible
   href: api/TC.ParticleRenderer.html#TC_ParticleRenderer_isVisible
-  commentId: F:TC.ParticleRenderer.isVisible
+  commentId: P:TC.ParticleRenderer.isVisible
+  fullName: TC.ParticleRenderer.isVisible
+  nameWithType: ParticleRenderer.isVisible
+- uid: TC.ParticleRenderer.isVisible*
+  name: isVisible
+  href: api/TC.ParticleRenderer.html#TC_ParticleRenderer_isVisible_
+  commentId: Overload:TC.ParticleRenderer.isVisible
   fullName: TC.ParticleRenderer.isVisible
   nameWithType: ParticleRenderer.isVisible
 - uid: TC.ParticleRenderer.LengthScale
@@ -2023,18 +2035,6 @@ references:
   commentId: Overload:TC.ParticleRenderer.UpdateColourOverLifetime
   fullName: TC.ParticleRenderer.UpdateColourOverLifetime
   nameWithType: ParticleRenderer.UpdateColourOverLifetime
-- uid: TC.ParticleRenderer.UpdateVisibility
-  name: UpdateVisibility()
-  href: api/TC.ParticleRenderer.html#TC_ParticleRenderer_UpdateVisibility
-  commentId: M:TC.ParticleRenderer.UpdateVisibility
-  fullName: TC.ParticleRenderer.UpdateVisibility()
-  nameWithType: ParticleRenderer.UpdateVisibility()
-- uid: TC.ParticleRenderer.UpdateVisibility*
-  name: UpdateVisibility
-  href: api/TC.ParticleRenderer.html#TC_ParticleRenderer_UpdateVisibility_
-  commentId: Overload:TC.ParticleRenderer.UpdateVisibility
-  fullName: TC.ParticleRenderer.UpdateVisibility
-  nameWithType: ParticleRenderer.UpdateVisibility
 - uid: TC.ParticleRenderer.UseFrustumCulling
   name: UseFrustumCulling
   href: api/TC.ParticleRenderer.html#TC_ParticleRenderer_UseFrustumCulling
@@ -2077,6 +2077,30 @@ references:
   commentId: F:TC.Space.World
   fullName: TC.Space.World
   nameWithType: Space.World
+- uid: TC.StartDirection
+  name: StartDirection
+  href: api/TC.StartDirection.html
+  commentId: T:TC.StartDirection
+  fullName: TC.StartDirection
+  nameWithType: StartDirection
+- uid: TC.StartDirection.Normal
+  name: Normal
+  href: api/TC.StartDirection.html#TC_StartDirection_Normal
+  commentId: F:TC.StartDirection.Normal
+  fullName: TC.StartDirection.Normal
+  nameWithType: StartDirection.Normal
+- uid: TC.StartDirection.Random
+  name: Random
+  href: api/TC.StartDirection.html#TC_StartDirection_Random
+  commentId: F:TC.StartDirection.Random
+  fullName: TC.StartDirection.Random
+  nameWithType: StartDirection.Random
+- uid: TC.StartDirection.Vector
+  name: Vector
+  href: api/TC.StartDirection.html#TC_StartDirection_Vector
+  commentId: F:TC.StartDirection.Vector
+  fullName: TC.StartDirection.Vector
+  nameWithType: StartDirection.Vector
 - uid: TC.StartDirectionType
   name: StartDirectionType
   href: api/TC.StartDirectionType.html
