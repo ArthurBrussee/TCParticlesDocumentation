@@ -90,7 +90,8 @@
   
   
   <h4 id="TC_ParticleManager_damping" data-uid="TC.ParticleManager.damping">damping</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Drag applied to particles. Specified in speed factor per second</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   
   
@@ -192,28 +193,6 @@
       <tr>
         <th>Type</th>
         <th><span class="xref">System.Single</span></th>
-      </tr>
-    </thead>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  <h4 id="TC_ParticleManager_Offset" data-uid="TC.ParticleManager.Offset">Offset</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  
-  
-  
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th><span class="xref">System.Int32</span></th>
       </tr>
     </thead>
   </table>
@@ -396,7 +375,7 @@ In most cases it is better to use the built in <a class="xref" href="TC.Particle
   
   <a id="TC_ParticleManager_IsPaused_" data-uid="TC.ParticleManager.IsPaused*"></a>
   <h4 id="TC_ParticleManager_IsPaused" data-uid="TC.ParticleManager.IsPaused">IsPaused</h4>
-  <div class="markdown level1 summary"><p>Is the particle system paused?</p>
+  <div class="markdown level1 summary"><p>Is the particle system currently paused?</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   
@@ -444,11 +423,14 @@ In most cases it is better to use the built in <a class="xref" href="TC.Particle
   
   <a id="TC_ParticleManager_IsStopped_" data-uid="TC.ParticleManager.IsStopped*"></a>
   <h4 id="TC_ParticleManager_IsStopped" data-uid="TC.ParticleManager.IsStopped">IsStopped</h4>
-  <div class="markdown level1 summary"><p>Is the particle system paused?</p>
+  <div class="markdown level1 summary"><p>Is the particle system currently stopped?</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   
   
+  <h5 id="TC_ParticleManager_IsStopped_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This is only false when calling <a class="xref" href="TC.ParticleManager.html#TC_ParticleManager_Stop_System_Boolean_">Stop(Boolean)</a> and not when pausing.</p>
+</div>
   
   
   

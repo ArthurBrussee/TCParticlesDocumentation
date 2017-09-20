@@ -1159,6 +1159,18 @@ references:
   commentId: Overload:TC.ParticleEmitter.LineLength
   fullName: TC.ParticleEmitter.LineLength
   nameWithType: ParticleEmitter.LineLength
+- uid: TC.ParticleEmitter.Offset
+  name: Offset
+  href: api/TC.ParticleEmitter.html#TC_ParticleEmitter_Offset
+  commentId: P:TC.ParticleEmitter.Offset
+  fullName: TC.ParticleEmitter.Offset
+  nameWithType: ParticleEmitter.Offset
+- uid: TC.ParticleEmitter.Offset*
+  name: Offset
+  href: api/TC.ParticleEmitter.html#TC_ParticleEmitter_Offset_
+  commentId: Overload:TC.ParticleEmitter.Offset
+  fullName: TC.ParticleEmitter.Offset
+  nameWithType: ParticleEmitter.Offset
 - uid: TC.ParticleEmitter.OnEmissionBind
   name: OnEmissionBind
   href: api/TC.ParticleEmitter.html#TC_ParticleEmitter_OnEmissionBind
@@ -1675,12 +1687,6 @@ references:
   commentId: Overload:TC.ParticleManager.NoSimulation
   fullName: TC.ParticleManager.NoSimulation
   nameWithType: ParticleManager.NoSimulation
-- uid: TC.ParticleManager.Offset
-  name: Offset
-  href: api/TC.ParticleManager.html#TC_ParticleManager_Offset
-  commentId: F:TC.ParticleManager.Offset
-  fullName: TC.ParticleManager.Offset
-  nameWithType: ParticleManager.Offset
 - uid: TC.ParticleManager.ParticleCount
   name: ParticleCount
   href: api/TC.ParticleManager.html#TC_ParticleManager_ParticleCount
