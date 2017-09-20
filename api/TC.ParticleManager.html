@@ -769,10 +769,12 @@ In most cases it is better to use the built in <a class="xref" href="TC.Particle
   
   <h5 id="TC_ParticleManager_DispatchExtensionKernel_UnityEngine_ComputeShader_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The extension compute shader must adhere to certain guidelines:</p>
-<p>-Have a groupsize of TC_GROUP_SIZE, 1, 1
--Include TCFramework.cginc
--To get a particle use particles[GetID(dispatchThreadID.x)]
--Use _DeltTime for calculations involving delta time</p>
+<ol>
+<li>Have a groupsize of (TC_GROUP_SIZE, 1, 1)</li>
+<li>Include TCFramework.cginc</li>
+<li>To get a particle use particles[GetID(dispatchThreadID.x)]</li>
+<li>Use the &quot;_DeltTime&quot; variable for calculations involving delta time</li>
+</ol>
 <p>For more information see the additional comments in the extension kernel example</p>
 </div>
   
