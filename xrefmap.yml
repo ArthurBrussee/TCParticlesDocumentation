@@ -1429,12 +1429,6 @@ references:
   commentId: Overload:TC.ParticleForceManager.ForceLayers
   fullName: TC.ParticleForceManager.ForceLayers
   nameWithType: ParticleForceManager.ForceLayers
-- uid: TC.ParticleForceManager.ForceTypeKernelCount
-  name: ForceTypeKernelCount
-  href: api/TC.ParticleForceManager.html#TC_ParticleForceManager_ForceTypeKernelCount
-  commentId: F:TC.ParticleForceManager.ForceTypeKernelCount
-  fullName: TC.ParticleForceManager.ForceTypeKernelCount
-  nameWithType: ParticleForceManager.ForceTypeKernelCount
 - uid: TC.ParticleForceManager.MaxForces
   name: MaxForces
   href: api/TC.ParticleForceManager.html#TC_ParticleForceManager_MaxForces
