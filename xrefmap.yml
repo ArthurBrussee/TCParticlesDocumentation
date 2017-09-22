@@ -1501,6 +1501,18 @@ references:
   commentId: Overload:TC.ParticleManager.Clear
   fullName: TC.ParticleManager.Clear
   nameWithType: ParticleManager.Clear
+- uid: TC.ParticleManager.ComputeShader
+  name: ComputeShader
+  href: api/TC.ParticleManager.html#TC_ParticleManager_ComputeShader
+  commentId: P:TC.ParticleManager.ComputeShader
+  fullName: TC.ParticleManager.ComputeShader
+  nameWithType: ParticleManager.ComputeShader
+- uid: TC.ParticleManager.ComputeShader*
+  name: ComputeShader
+  href: api/TC.ParticleManager.html#TC_ParticleManager_ComputeShader_
+  commentId: Overload:TC.ParticleManager.ComputeShader
+  fullName: TC.ParticleManager.ComputeShader
+  nameWithType: ParticleManager.ComputeShader
 - uid: TC.ParticleManager.ConstantForce
   name: ConstantForce
   href: api/TC.ParticleManager.html#TC_ParticleManager_ConstantForce
@@ -3040,18 +3052,6 @@ references:
   commentId: F:TC.TCShapeEmitter.ShapeData
   fullName: TC.TCShapeEmitter.ShapeData
   nameWithType: TCShapeEmitter.ShapeData
-- uid: TC.TCShapeEmitter.TickEmission(TC.ParticleEmitter,System.Single)
-  name: TickEmission(ParticleEmitter, Single)
-  href: api/TC.TCShapeEmitter.html#TC_TCShapeEmitter_TickEmission_TC_ParticleEmitter_System_Single_
-  commentId: M:TC.TCShapeEmitter.TickEmission(TC.ParticleEmitter,System.Single)
-  fullName: TC.TCShapeEmitter.TickEmission(TC.ParticleEmitter, System.Single)
-  nameWithType: TCShapeEmitter.TickEmission(ParticleEmitter, Single)
-- uid: TC.TCShapeEmitter.TickEmission*
-  name: TickEmission
-  href: api/TC.TCShapeEmitter.html#TC_TCShapeEmitter_TickEmission_
-  commentId: Overload:TC.TCShapeEmitter.TickEmission
-  fullName: TC.TCShapeEmitter.TickEmission
-  nameWithType: TCShapeEmitter.TickEmission
 - uid: TC.Vector3Curve
   name: Vector3Curve
   href: api/TC.Vector3Curve.html
