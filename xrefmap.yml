@@ -1096,6 +1096,15 @@ references:
   fullName.vb: TC.ParticleEmitter.Emit(TC.ParticleProto(), System.Boolean, System.Boolean, System.Boolean)
   nameWithType: ParticleEmitter.Emit(ParticleProto[], Boolean, Boolean, Boolean)
   nameWithType.vb: ParticleEmitter.Emit(ParticleProto(), Boolean, Boolean, Boolean)
+- uid: TC.ParticleEmitter.Emit(TC.ParticleProto[],System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  name: Emit(ParticleProto[], Int32, Boolean, Boolean, Boolean)
+  href: api/TC.ParticleEmitter.html#TC_ParticleEmitter_Emit_TC_ParticleProto___System_Int32_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:TC.ParticleEmitter.Emit(TC.ParticleProto[],System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  name.vb: Emit(ParticleProto(), Int32, Boolean, Boolean, Boolean)
+  fullName: TC.ParticleEmitter.Emit(TC.ParticleProto[], System.Int32, System.Boolean, System.Boolean, System.Boolean)
+  fullName.vb: TC.ParticleEmitter.Emit(TC.ParticleProto(), System.Int32, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType: ParticleEmitter.Emit(ParticleProto[], Int32, Boolean, Boolean, Boolean)
+  nameWithType.vb: ParticleEmitter.Emit(ParticleProto(), Int32, Boolean, Boolean, Boolean)
 - uid: TC.ParticleEmitter.Emit(UnityEngine.Vector3[])
   name: Emit(Vector3[])
   href: api/TC.ParticleEmitter.html#TC_ParticleEmitter_Emit_UnityEngine_Vector3___
@@ -1147,6 +1156,18 @@ references:
   commentId: Overload:TC.ParticleEmitter.InheritVelocity
   fullName: TC.ParticleEmitter.InheritVelocity
   nameWithType: ParticleEmitter.InheritVelocity
+- uid: TC.ParticleEmitter.Lifetime
+  name: Lifetime
+  href: api/TC.ParticleEmitter.html#TC_ParticleEmitter_Lifetime
+  commentId: P:TC.ParticleEmitter.Lifetime
+  fullName: TC.ParticleEmitter.Lifetime
+  nameWithType: ParticleEmitter.Lifetime
+- uid: TC.ParticleEmitter.Lifetime*
+  name: Lifetime
+  href: api/TC.ParticleEmitter.html#TC_ParticleEmitter_Lifetime_
+  commentId: Overload:TC.ParticleEmitter.Lifetime
+  fullName: TC.ParticleEmitter.Lifetime
+  nameWithType: ParticleEmitter.Lifetime
 - uid: TC.ParticleEmitter.LineLength
   name: LineLength
   href: api/TC.ParticleEmitter.html#TC_ParticleEmitter_LineLength
@@ -2695,6 +2716,15 @@ references:
   fullName.vb: TC.TCParticleSystem.Emit(TC.ParticleProto(), System.Boolean, System.Boolean, System.Boolean)
   nameWithType: TCParticleSystem.Emit(ParticleProto[], Boolean, Boolean, Boolean)
   nameWithType.vb: TCParticleSystem.Emit(ParticleProto(), Boolean, Boolean, Boolean)
+- uid: TC.TCParticleSystem.Emit(TC.ParticleProto[],System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  name: Emit(ParticleProto[], Int32, Boolean, Boolean, Boolean)
+  href: api/TC.TCParticleSystem.html#TC_TCParticleSystem_Emit_TC_ParticleProto___System_Int32_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:TC.TCParticleSystem.Emit(TC.ParticleProto[],System.Int32,System.Boolean,System.Boolean,System.Boolean)
+  name.vb: Emit(ParticleProto(), Int32, Boolean, Boolean, Boolean)
+  fullName: TC.TCParticleSystem.Emit(TC.ParticleProto[], System.Int32, System.Boolean, System.Boolean, System.Boolean)
+  fullName.vb: TC.TCParticleSystem.Emit(TC.ParticleProto(), System.Int32, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType: TCParticleSystem.Emit(ParticleProto[], Int32, Boolean, Boolean, Boolean)
+  nameWithType.vb: TCParticleSystem.Emit(ParticleProto(), Int32, Boolean, Boolean, Boolean)
 - uid: TC.TCParticleSystem.Emit(UnityEngine.Vector3[])
   name: Emit(Vector3[])
   href: api/TC.TCParticleSystem.html#TC_TCParticleSystem_Emit_UnityEngine_Vector3___
